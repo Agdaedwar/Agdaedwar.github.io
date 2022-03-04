@@ -1,0 +1,243 @@
+header {
+	height: 65px;
+	width: 100%;
+	background-color: rgba(4, 49, 52, 0.9);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right a {
+	line-height: 65px;
+	padding: 0 25px;
+	color: white;
+	display: block;
+	float: left;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+.header-right a:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+	font: georgia;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+	color: whitesmoke;
+}
+
+
+
+.logosabi {
+	width: 275px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+body {
+	margin: 0;
+	font-family: "Lucinda Grande";
+	background-color: #239b76;
+}
+
+.Profil {
+	padding-top: 70px;
+	padding-bottom: 200px;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: rgba(12, 115, 122, 0.9);
+	text-align: center;
+    background-image: url("https://i.pinimg.com/564x/2a/ab/ad/2aabadc41a9468b096df9192e1422b60.jpg");
+	background-size: 1350px 1080px;
+}
+
+.Profil p {
+  opacity: 1;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  color: white;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.heading {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.CAST {
+ 	background-color: #3b5998;
+	padding-top: 70px;
+	padding-bottom: 120px;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+ 	background-image: url(laptop1.jpg);
+	background-size: 1400px 900px;
+}
+.sublist {
+  float: left;
+  width: 25%;
+}
+.list a {
+	color :white;
+	text-align: center;
+
+}
+
+.list p {
+	color: white;
+}
+.photo {
+  position: relative;
+}
+
+.photo p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.form {
+	background-color: white;
+	width: 38%;
+	position: center;
+}
+
+.heading1 {
+	text-align: left;
+	padding-top: 20px;
+  	padding-bottom: 10px;
+  	color: black;
+ }
+
+.PENDAFTARAN {
+	background-image: url(laptop4.jpg);
+	background-size: 1350px 800px;
+}
+
+h1 {
+	text-align: left;
+  	color: gold;
+  	text-shadow: black;
+}
+
+.top-wrapper {
+  padding: 150px 0 100px 0;
+  background-image: url(laptop9.jpg);
+  background-size: 1500px 500px;
+  color: white;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.Instagram {
+  background-color: #d40468;
+  margin-right: 10px;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 7px #a71353;
+}
+
+.Youtube {
+  background-color: #fa0404;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 7px #780800;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.Instagram:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.Youtube:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 150px;
+  float: left;
+}
+
+footer p {
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+  float: left;
+}
+
+footer {
+  padding-top: auto;
+  padding-bottom: auto;
+
+}
+
+.container span {
+	color: white;
+}
+
+.akhir {
+	padding-top: 55px;
+	color: white;
+	float: left;
+}
