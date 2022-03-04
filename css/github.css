@@ -1,0 +1,82 @@
+header {
+	height: 65px;
+	width: 100%;
+	background-color: rgba(4, 49, 52, 0.9);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right a {
+	line-height: 65px;
+	padding: 0 25px;
+	color: white;
+	display: block;
+	float: left;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+.header-right a:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+	font: georgia;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+	color: whitesmoke;
+}
+
+
+
+.logosabi {
+	width: 275px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+body {
+	margin: 0;
+	font-family: "Lucinda Grande";
+	background-color: #239b76;
+}
+
+.Profil {
+	padding-top: 70px;
+	padding-bottom: 200px;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: rgba(12, 115, 122, 0.9);
+	text-align: center;
+    background-image: url("https://i.pinimg.com/564x/2a/ab/ad/2aabadc41a9468b096df9192e1422b60.jpg");
+	background-size: 1350px 1080px;
+}
+
+.Profil p {
+  opacity: 1;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  color: white;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.heading {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+
+
